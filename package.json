@@ -1,0 +1,28 @@
+{
+    "name": "choque",
+    "version": "1.0.0",
+    "description": "CLI tool to keep servers alive by pinging URLs",
+    "main": "dist/index.js",
+    "repository": "https://github.com/giwajossy/choque-cli.git",
+    "bin": {
+      "choque": "./dist/index.js"
+    },
+    "author": "Giwa Jossy",
+    "license": "MIT",
+    "scripts": {
+      "build": "tsc",
+      "start": "ts-node src/index.ts"
+    },
+    "dependencies": {
+      "axios": "^1.7.2",
+      "chalk": "^4.1.2",
+      "commander": "^12.1.0",
+      "winston": "^3.13.0"
+    },
+    "devDependencies": {
+      "@types/chalk": "^2.2.0",
+      "@types/node": "^20.14.2",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.4.5"
+    }
+  }
